@@ -18,3 +18,12 @@
 
 ### Project
 #### [Natural language processing test with Huuto.net REST API](https://github.com/anttinevalainen/data-science-intro/tree/main/Natural%20language%20processing%20test%20with%20Huuto%20REST%20API)
+-
+-
+-
+```bash
+Antti Sankari Nevalainen
+a@anttisankari.com
+www.anttisankari.com
+https://github.com/anttinevalainen
+```
