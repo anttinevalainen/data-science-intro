@@ -176,7 +176,7 @@ assert round(noxmean, 3) == 0.492, ('result of mean NO concentration ' +
 ########SLICING EXERCISE 2########
 
 #read data and define list of stop words
-data = pd.read_json('Automotive_5.json', lines=True)
+data = pd.read_json('data/Automotive_5.json', lines=True)
 stopwords = ["a", "about", "above", "above", "across", "after",
              "afterwards", "again", "against", "all", "almost",
              "alone", "along", "already", "also","although","always",
@@ -247,5 +247,5 @@ neg = data[(data.overall == 1) | (data.overall == 2)]
 reviewText = ['reviewText']
 
 #save good and bad reviews to own txt-files
-pos[reviewText].to_csv(r'positive_reviews.txt', index=False)
-neg[reviewText].to_csv(r'negative_reviews.txt', index=False)
+pos[reviewText].to_csv(r'data/positive_reviews.txt', index=False)
+neg[reviewText].to_csv(r'data/negative_reviews.txt', index=False)
