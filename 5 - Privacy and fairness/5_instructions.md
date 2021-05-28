@@ -59,7 +59,9 @@ When data is being anonymized, any tracks of pointing out the data to a specific
 erased or altered in a way that the data becomes anonymous and it is not possible to
 connect to a specific person.
 -
-When data is being pseudonymized, above manners are done, but the data is possible to be connected to specific people/person with additional data, which is not openly available/is only in use of the provider and the subject themselves.
+When data is being pseudonymized, above manners are done, but the data is possible to be connected
+to specific people/person with additional data, which is not openly available/is only in use of the
+provider and the subject themselves.
 ```
 
 ## Exercise 2 - Fairness-aware AI
